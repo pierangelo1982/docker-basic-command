@@ -19,3 +19,7 @@ docker rmi $(docker images -q)
 ## docker-compose run web bin/rails db:create db:migrate RAILS_ENV=development
 ## docker-compose run web bin/rails db:migrate
 ## docker-compose run web bin/rails db:migrate RAILS_ENV=development
+
+
+# console os
+## docker run -i -t 7587587
