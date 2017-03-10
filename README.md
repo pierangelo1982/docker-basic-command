@@ -12,7 +12,9 @@ docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
 
 Delete all containers: docker rm -f $(docker ps -aq)
+
 Delete all images: docker rmi -f $(docker images -q)
+
 Delete dangling images: docker rmi $(docker images -q -f dangling=true)
 
 
